@@ -1,0 +1,12 @@
+# Ignore output directories
+output_elimination_v2/
+output_elimination_v3/
+output_elimination_v4/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore system files
+.DS_Store
