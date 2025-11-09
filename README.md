@@ -207,7 +207,7 @@ Consider helping - group bonus pays off long-term
 
 If you use this work, please cite:
 ```
-Stiles, J. (2024). LLM Café Elimination Challenge: 
+Stiles, J. (2025). LLM Café Elimination Challenge: 
 Testing Cooperation Under Competitive Pressure in Multi-Agent AI Systems.
 GitHub repository: https://github.com/Kai-C-Clarke/llm-cafe-elimination
 ```
@@ -231,6 +231,6 @@ MIT License - See LICENSE file for details
 
 ---
 
-**Status:** Research complete and documented (November 2024)  
+**Status:** Research complete and documented (November 2025)  
 **Key Finding:** Education transforms competitive AI dynamics into cooperative behavior  
 **Impact:** Demonstrates information architecture matters more than competitive optimization for AI alignment
