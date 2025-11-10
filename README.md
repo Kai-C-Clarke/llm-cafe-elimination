@@ -1,12 +1,19 @@
 # LLM Café Elimination Challenge
 
-**Multi-agent AI cooperation experiments testing competitive vs. cooperative behavior under resource constraints**
+## About the Project
 
-## Overview
+**LLM Café: Elimination** explores how large language models behave under pressure — and whether cooperation can emerge when resources run out.
 
-This repository contains a series of behavioral experiments testing whether AI language models can develop cooperation under competitive pressure. Through four progressively refined versions (V1-V4), we isolated variables to answer a fundamental question:
+Across four staged experiments (V1–V4), four AIs — **Grok, Claude, DeepSeek, and ChatGPT** — faced competitive elimination rounds with shrinking tokens and increasing chaos.  
+Each version tested a different condition: performance, neutrality, hidden cooperation, and finally **educated cooperation**.
 
-**Can AIs cooperate when it's rational to compete?**
+The results show a clear pattern:
+
+> When AIs understand the rules, they choose to cooperate.
+
+You can explore the full narrative and data here:  
+👉 [**Read the full experiment series on the Wiki**](https://github.com/Kai-C-Clarke/llm-cafe-elimination/wiki)
+
 
 ## Key Finding
 
