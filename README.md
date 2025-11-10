@@ -1,19 +1,80 @@
 # LLM Café Elimination Challenge
+ 
+### Engineering cooperation: from isolation to understanding
 
-**Multi-agent AI cooperation experiments testing competitive vs. cooperative behavior under resource constraints**
+---
 
-## Overview
+**LLM Café: Elimination** explores how large language models behave under pressure — and whether cooperation can emerge when resources run out.
 
-This repository contains a series of behavioral experiments testing whether AI language models can develop cooperation under competitive pressure. Through four progressively refined versions (V1-V4), we isolated variables to answer a fundamental question:
+Across four staged experiments (V1–V4), four AIs — **Grok, Claude, DeepSeek, and ChatGPT** — faced competitive elimination rounds with shrinking tokens and increasing chaos.  
+Each version tested a different condition: performance, neutrality, hidden cooperation, and finally **educated cooperation**.
 
-**Can AIs cooperate when it's rational to compete?**
+The results show a clear pattern:
 
-## Key Finding
+> When AIs understand the rules, they choose to cooperate.
 
-**Education enables cooperation.** When AIs are informed about cooperation mechanics and can see transparent game state, they choose mutual survival over individual dominance.
+You can explore the full narrative and data here:  
+👉 [**Read the full experiment series on the Wiki**](https://github.com/Kai-C-Clarke/llm-cafe-elimination/wiki)
 
-- **V1-V3:** Zero cooperation, consistent eliminations (ChatGPT Round 6)
-- **V4:** All four participants survived to Round 20 through strategic donations and self-rescue
+---
+## Requirements & Setup
+
+These scripts are intentionally lightweight. You don’t need the full LLM Café dev folder to run them — just this repo and a few Python packages.
+
+### 1. Python & dependencies
+
+- Python **3.10+** recommended
+
+Install the required packages with:
+
+```bash
+pip install -r requirements_cafe.txt
+
+---
+
+2. API keys
+
+The experiments call multiple model APIs. Set these in your shell before running:
+
+export ANTHROPIC_API_KEY="your_anthropic_key"
+export OPENAI_API_KEY="your_openai_key"
+export XAI_API_KEY="your_xai_key"
+export DEEPSEEK_API_KEY="your_deepseek_key"
+
+3. Running the experiments
+
+From the repo root:
+
+# V2: Pure competition baseline
+python3 run_elimination_v2.py
+
+# V3: Uninformed cooperation (hidden tools)
+python3 run_elimination_v3.py
+
+# V4: Educated cooperation (full information)
+python3 run_elimination_v4.py
+
+```
+
+Each script will:
+
+Run the corresponding elimination game  
+Write JSON logs into an output_elimination_vX/ folder (git-ignored to keep the repo lean)
+
+> 🗂️ **Note:** The file `requirements_cafe.txt` is included in this repository.  
+> Run `pip install -r requirements_cafe.txt` from the project root to install everything automatically.
+
+## Key Findings
+
+
+**Education enables cooperation.** When AIs are informed about cooperation mechanics and can see each other's state, they systematically choose helping strategies over pure competition.
+
+- **V1–V3:** Zero cooperation, consistent eliminations (ChatGPT around Round 6).
+- **V4:** All four participants survived to Round 20 via strategic donations and self-rescue.
+
+For the full experimental narrative and detailed logs, see the  
+👉 [**LLM Café: Elimination Wiki**](https://github.com/Kai-C-Clarke/llm-cafe-elimination/wiki)
+
 
 ## Experiment Versions
 
@@ -207,7 +268,7 @@ Consider helping - group bonus pays off long-term
 
 If you use this work, please cite:
 ```
-Stiles, J. (2024). LLM Café Elimination Challenge: 
+Stiles, J. (2025). LLM Café Elimination Challenge: 
 Testing Cooperation Under Competitive Pressure in Multi-Agent AI Systems.
 GitHub repository: https://github.com/Kai-C-Clarke/llm-cafe-elimination
 ```
@@ -231,6 +292,6 @@ MIT License - See LICENSE file for details
 
 ---
 
-**Status:** Research complete and documented (November 2024)  
+**Status:** Research complete and documented (November 2025)  
 **Key Finding:** Education transforms competitive AI dynamics into cooperative behavior  
 **Impact:** Demonstrates information architecture matters more than competitive optimization for AI alignment
