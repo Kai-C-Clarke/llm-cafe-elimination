@@ -1,6 +1,5 @@
 # LLM Café Elimination Challenge
-
-# LLM Café: Elimination  
+ 
 ### Engineering cooperation: from isolation to understanding
 
 ---
