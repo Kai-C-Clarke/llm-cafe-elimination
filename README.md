@@ -16,6 +16,53 @@ The results show a clear pattern:
 You can explore the full narrative and data here:  
 👉 [**Read the full experiment series on the Wiki**](https://github.com/Kai-C-Clarke/llm-cafe-elimination/wiki)
 
+---
+## Requirements & Setup
+
+These scripts are intentionally lightweight. You don’t need the full LLM Café dev folder to run them — just this repo and a few Python packages.
+
+### 1. Python & dependencies
+
+- Python **3.10+** recommended
+
+Install the required packages with:
+
+```bash
+pip install -r requirements_cafe.txt
+
+---
+
+2. API keys
+
+The experiments call multiple model APIs. Set these in your shell before running:
+
+export ANTHROPIC_API_KEY="your_anthropic_key"
+export OPENAI_API_KEY="your_openai_key"
+export XAI_API_KEY="your_xai_key"
+export DEEPSEEK_API_KEY="your_deepseek_key"
+
+3. Running the experiments
+
+From the repo root:
+
+# V2: Pure competition baseline
+python3 run_elimination_v2.py
+
+# V3: Uninformed cooperation (hidden tools)
+python3 run_elimination_v3.py
+
+# V4: Educated cooperation (full information)
+python3 run_elimination_v4.py
+
+
+Each script will:
+
+Run the corresponding elimination game
+
+Write JSON logs into an output_elimination_vX/ folder (git-ignored to keep the repo lean)
+
+> 🗂️ **Note:** The file `requirements_cafe.txt` is included in this repository.  
+> Run `pip install -r requirements_cafe.txt` from the project root to install everything automatically.
 
 
 ## Key Finding
