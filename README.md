@@ -54,7 +54,7 @@ python3 run_elimination_v3.py
 # V4: Educated cooperation (full information)
 python3 run_elimination_v4.py
 
-
+```
 
 Each script will:
 
