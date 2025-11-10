@@ -1,6 +1,9 @@
 # LLM Café Elimination Challenge
 
-## About the Project
+# LLM Café: Elimination  
+### Engineering cooperation: from isolation to understanding
+
+---
 
 **LLM Café: Elimination** explores how large language models behave under pressure — and whether cooperation can emerge when resources run out.
 
@@ -13,6 +16,7 @@ The results show a clear pattern:
 
 You can explore the full narrative and data here:  
 👉 [**Read the full experiment series on the Wiki**](https://github.com/Kai-C-Clarke/llm-cafe-elimination/wiki)
+
 
 
 ## Key Finding
