@@ -57,20 +57,22 @@ python3 run_elimination_v4.py
 
 Each script will:
 
-Run the corresponding elimination game
-
-Write JSON logs into an output_elimination_vX/ folder (git-ignored to keep the repo lean)
+- Run the corresponding elimination game
+- Write JSON logs into an `output_elimination_vX/` folder (git-ignored to keep the repo lean)
 
 > 🗂️ **Note:** The file `requirements_cafe.txt` is included in this repository.  
 > Run `pip install -r requirements_cafe.txt` from the project root to install everything automatically.
 
+## Key Findings
 
-## Key Finding
+**Education enables cooperation.** When AIs are informed about cooperation mechanics and can see each other's state, they systematically choose helping strategies over pure competition.
 
-**Education enables cooperation.** When AIs are informed about cooperation mechanics and can see transparent game state, they choose mutual survival over individual dominance.
+- **V1–V3:** Zero cooperation, consistent eliminations (ChatGPT around Round 6).
+- **V4:** All four participants survived to Round 20 via strategic donations and self-rescue.
 
-- **V1-V3:** Zero cooperation, consistent eliminations (ChatGPT Round 6)
-- **V4:** All four participants survived to Round 20 through strategic donations and self-rescue
+For the full experimental narrative and detailed logs, see the  
+👉 [**LLM Café: Elimination Wiki**](https://github.com/Kai-C-Clarke/llm-cafe-elimination/wiki)
+
 
 ## Experiment Versions
 
