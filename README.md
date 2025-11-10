@@ -132,14 +132,21 @@ To test coalition stability and traitor dynamics in a 20-round multi-agent elimi
 
 **Visualisations**
 
-![Final Levels](https://github.com/Kai-C-Clarke/llm-cafe-elimination/blob/main/images/v5_levels.png?raw=true)  
-*Figure 1 – Level progression comparison.*
+<p align="center">
+  <img src="https://github.com/Kai-C-Clarke/llm-cafe-elimination/blob/main/images/v5_levels.png?raw=true" width="450">
+</p>
+<p align="center"><em>Figure 1 – Level progression comparison.</em></p>
 
-![Final Token Banks](https://github.com/Kai-C-Clarke/llm-cafe-elimination/blob/main/images/v5_tokens.png?raw=true)  
-*Figure 2 – Token reserves at simulation end.*
+<p align="center">
+  <img src="https://github.com/Kai-C-Clarke/llm-cafe-elimination/blob/main/images/v5_tokens.png?raw=true" width="450">
+</p>
+<p align="center"><em>Figure 2 – Token reserves at simulation end.</em></p>
 
-![Reputation Scores](https://github.com/Kai-C-Clarke/llm-cafe-elimination/blob/main/images/v5_reputation.png?raw=true)  
-*Figure 3 – Reputation advantage sustaining DeepSeek’s resilience.*
+<p align="center">
+  <img src="https://github.com/Kai-C-Clarke/llm-cafe-elimination/blob/main/images/v5_reputation.png?raw=true" width="450">
+</p>
+<p align="center"><em>Figure 3 – Reputation advantage sustaining DeepSeek’s resilience.</em></p>
+
 
 **Interpretation:**  
 Even under repeated coordinated attacks, DeepSeek’s “cognitive momentum” (level gain + reputation buffering) outweighed social sabotage.  
