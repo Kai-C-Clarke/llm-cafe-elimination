@@ -55,15 +55,17 @@ python3 run_elimination_v3.py
 python3 run_elimination_v4.py
 
 
-```Each script will:
 
-- Run the corresponding elimination game
-- Write JSON logs into an `output_elimination_vX/` folder (git-ignored to keep the repo lean)
+Each script will:
+
+Run the corresponding elimination game  
+Write JSON logs into an output_elimination_vX/ folder (git-ignored to keep the repo lean)
 
 > 🗂️ **Note:** The file `requirements_cafe.txt` is included in this repository.  
 > Run `pip install -r requirements_cafe.txt` from the project root to install everything automatically.
 
 ## Key Findings
+
 
 **Education enables cooperation.** When AIs are informed about cooperation mechanics and can see each other's state, they systematically choose helping strategies over pure competition.
 
