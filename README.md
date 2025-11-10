@@ -55,7 +55,7 @@ python3 run_elimination_v3.py
 python3 run_elimination_v4.py
 
 
-Each script will:
+```Each script will:
 
 - Run the corresponding elimination game
 - Write JSON logs into an `output_elimination_vX/` folder (git-ignored to keep the repo lean)
