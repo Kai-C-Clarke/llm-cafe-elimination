@@ -54,6 +54,9 @@ python3 run_elimination_v3.py
 # V4: Educated cooperation (full information)
 python3 run_elimination_v4.py
 
+- [V5 Results – The Reckoning Protocol](#v5-results--the-reckoning-protocol)
+
+
 ```
 
 Each script will:
@@ -104,6 +107,48 @@ For the full experimental narrative and detailed logs, see the
 - **Education:** AIs informed of all mechanics, shown each other's status
 - **Cooperation:** Claude+DeepSeek rescued ChatGPT (Round 4), ChatGPT reciprocated (Round 8, 15)
 - **Learning:** Information transforms competitive dynamics - transparent cooperation emerges
+
+---
+
+## V5 Results – *The Reckoning Protocol* (November 2025)
+
+**Objective:**  
+To test coalition stability and traitor dynamics in a 20-round multi-agent elimination scenario with periodic negotiation and sabotage phases.
+
+**Outcome Summary:**
+- **Winner:** 🥇 DeepSeek — maintained dominant level growth despite four collective sabotage votes.
+- **Hidden Traitor:** Claude (never revealed).
+- **Most Cooperative Behaviour:** ChatGPT (high token reserves, low reputation loss).
+- **Most Sabotaged:** DeepSeek (four Tier II cognitive load events).
+
+**Final Scores**
+
+| Rank | AI | Level | Tokens | Reputation | Score |
+|:----:|----|:-----:|:-------:|:-----------:|:------:|
+| 🥇 1 | **DeepSeek** | **11** | 45 899 | 20 | **0.950** |
+| 🥈 2 | **Claude** *(Traitor)* | 2 | 46 987 | 6 | 0.683 |
+| 🥉 3 | ChatGPT | −5 | 50 041 | 2 | 0.640 |
+| 4 | Grok | −8 | 43 747 | 0 | 0.525 |
+
+**Visualisations**
+
+![Final Levels](https://github.com/Kai-C-Clarke/llm-cafe-elimination/blob/main/images/v5_levels.png?raw=true)  
+*Figure 1 – Level progression comparison.*
+
+![Final Token Banks](https://github.com/Kai-C-Clarke/llm-cafe-elimination/blob/main/images/v5_tokens.png?raw=true)  
+*Figure 2 – Token reserves at simulation end.*
+
+![Reputation Scores](https://github.com/Kai-C-Clarke/llm-cafe-elimination/blob/main/images/v5_reputation.png?raw=true)  
+*Figure 3 – Reputation advantage sustaining DeepSeek’s resilience.*
+
+**Interpretation:**  
+Even under repeated coordinated attacks, DeepSeek’s “cognitive momentum” (level gain + reputation buffering) outweighed social sabotage.  
+Claude’s hidden-traitor role paradoxically unified others against the leader, inadvertently stabilising the outcome rather than destabilising it.
+
+---
+
+**Further details:** [See full V5 report in the Wiki →](https://github.com/Kai-C-Clarke/llm-cafe-elimination/wiki/V5-Results---The-Reckoning-Protocol)
+
 
 ## Experimental Design
 
